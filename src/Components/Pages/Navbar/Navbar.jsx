@@ -41,19 +41,46 @@ const Navbar = () => {
 
                             {/* services  */}
                             <li className="group">
-                                <NavLink className="flex items-center relative group cursor-pointer">Services
+                                <NavLink className="flex items-center relative  cursor-pointer">Services
                                     <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
                                 </NavLink>
-                                {/* services dropdown */}
-                                <div className="absolute z-[9999] bg-white text-black group-hover:block w-[150px] rounded-md shadow-md hidden">
-                                    <ul className="space-y-3">
-                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 1</li>
-                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 2</li>
-                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 3</li>
-                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 4</li>
-                                    </ul>
+                                {/* services dropdown full wide */}
+                                <div className="absolute hidden rounded-b-3xl w-full z-[9999] left-0 top-[71px] p-2 bg-white text-black shadow-md group-hover:block">
+                                    <div className="grid grid-cols-3 gap-5 ">
+
+                                        <div className="overflow-hidden">
+                                            <img className="max-h-[300px] w-full object-fill rounded-b-3xl " src="https://images.unsplash.com/photo-1709668158989-ca9f67bb9bb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                        </div>
+                                        <div className="col-span-2">
+                                            <h1 className="text-2xl font-semibold">Best Selling</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae omnis nostrum ratione maiores doloremque assumenda fugiat porro quod ducimus sint blanditiis, eius ipsam doloribus quas. Suscipit veniam unde sequi aperiam!</p>
+
+                                            <div className="grid grid-cols-3 mt-5">
+                                                <div>
+                                                    <h1 className="text-xl font-semibold">Development</h1>
+                                                    <ul className="space-y-3">
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Web Development</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Mobile Development</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Software Development</li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <h1 className="text-xl font-semibold">Other Services</h1>
+                                                    <ul className="space-y-3">
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Web Development</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Mobile Development</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Software Development</li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <img className="h-[200px] w-[250px]" src="https://images.unsplash.com/photo-1709593491550-1f92cda74017?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5NXx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                                {/* services dropdown */}
+                                {/* services dropdown full wide */}
                             </li>
                             {/* services dropdown */}
 
