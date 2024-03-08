@@ -10,7 +10,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="min-h-screen flex gap-8 items-center bg-gradient-to-r from-violet-950 to-violet-900 pt-20">
+        <div className="h-[650px] flex gap-8 items-center bg-gradient-to-r from-violet-950 to-violet-900 pt-20 md:pb-0 p-4 pb-20">
 
             <section className="container flex flex-col items-center justify-between">
                 <div className="grid grid-cols-1 md:grid-cols-2 dark:text-white space-y-5">

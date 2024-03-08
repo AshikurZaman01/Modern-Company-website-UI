@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
-    const [theme, setTheme] = useState('dark');
+    const [theme, setTheme] = useState('light');
     const element = document.documentElement;
 
     // Check localStorage for theme preference on component mount
