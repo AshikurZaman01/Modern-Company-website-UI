@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div>
 
-            <header className="bg-navbar">
+            <header className="bg-navbar border-b-[1px] border-primary/50">
                 <nav className="container flex justify-between items-center h-[70px] py-2 ">
 
                     {/* logo */}
@@ -22,9 +22,23 @@ const Navbar = () => {
                     <div>
                         <ul className="flex items-center gap-4 text-white">
 
-                            <li><NavLink className="flex items-center relative group cursor-pointer">Home
-                                <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
-                            </NavLink></li>
+                            {/* home section */}
+                            <li className="group">
+                                <NavLink className="flex items-center relative  cursor-pointer">Home
+                                    <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
+                                </NavLink>
+                                {/* home dropdown */}
+                                <div className="absolute  hidden z-[9999]  w-[150px] bg-white text-black group-hover:block rounded-md shadow-md">
+                                    <ul className="space-y-3">
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services</li>
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">About us</li>
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Privacy Policy</li>
+                                    </ul>
+                                </div>
+                                {/* home dropdown */}
+                            </li>
+                            {/* home section */}
+
 
                             <li><NavLink className="flex items-center relative group cursor-pointer">Services
                                 <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
