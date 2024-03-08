@@ -67,9 +67,9 @@ const Navbar = () => {
                                                 <div>
                                                     <h1 className="text-xl font-semibold">Other Services</h1>
                                                     <ul className="space-y-3">
-                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Web Development</li>
-                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Mobile Development</li>
-                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Software Development</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Cloud Services</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">Mobile App</li>
+                                                        <li className="cursor-pointer font-semibold text-primary hover:bg-violet-200 rounded-md p-2 m-1">App Development</li>
                                                     </ul>
                                                 </div>
                                                 <div>
