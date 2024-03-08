@@ -39,10 +39,23 @@ const Navbar = () => {
                             </li>
                             {/* home section */}
 
-
-                            <li><NavLink className="flex items-center relative group cursor-pointer">Services
-                                <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
-                            </NavLink></li>
+                            {/* services  */}
+                            <li className="group">
+                                <NavLink className="flex items-center relative group cursor-pointer">Services
+                                    <span><FaCaretDown className="text-xl transition-all duration-200 group-hover:rotate-180" /></span>
+                                </NavLink>
+                                {/* services dropdown */}
+                                <div className="absolute z-[9999] bg-white text-black group-hover:block w-[150px] rounded-md shadow-md hidden">
+                                    <ul className="space-y-3">
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 1</li>
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 2</li>
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 3</li>
+                                        <li className="cursor-pointer hover:bg-violet-200 rounded-md p-2 m-1">Services 4</li>
+                                    </ul>
+                                </div>
+                                {/* services dropdown */}
+                            </li>
+                            {/* services dropdown */}
 
                             <li><NavLink>Contact Us</NavLink></li>
 
