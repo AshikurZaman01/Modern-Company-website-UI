@@ -3,12 +3,38 @@ import { BiPhoneCall } from "react-icons/bi";
 import { FaMoon } from "react-icons/fa";
 import { FaSun } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
 
+    const [theme, setTheme] = useState('dark');
+    const element = document.documentElement;
+
+    useEffect(() => {
+        if (theme === 'dark') {
+            element.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            element.classList.add('light');
+            localStorage.removeItem('theme');
+            localStorage.setItem('theme', 'light');
+        }
+    }, [element.classList, theme])
+
+    const toggleTheme = () => {
+        const newTheme = theme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+    };
+
+    useEffect(() => {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        }
+    }, []);
+
     return (
         <div>
-
             <header className="bg-navbar border-b-[1px] border-primary/50">
                 <nav className="container flex justify-between items-center h-[70px] py-2 ">
 
@@ -109,9 +135,10 @@ const Navbar = () => {
 
                             {/* dark and light mood */}
                             <li>
-                                <div className="text-2xl ml-5 cursor-pointer">
-                                    <FaMoon />
-                                    <FaSun />
+                                <div className="text-2xl ml-5 cursor-pointer" onClick={toggleTheme}>
+                                    {
+                                        theme === 'dark' ? <FaMoon /> : <FaSun />
+                                    }
                                 </div>
                             </li>
                             {/* dark and light mood */}
@@ -121,7 +148,6 @@ const Navbar = () => {
                     {/* desktop menu section */}
                 </nav>
             </header>
-
         </div>
     );
 };
