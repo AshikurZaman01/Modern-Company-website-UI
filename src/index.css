@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .bg-navbar {
+        @apply bg-gradient-to-l from-violet-900 via-violet-800 tovial-violet-900;
+    }
+}

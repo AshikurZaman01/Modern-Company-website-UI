@@ -7,6 +7,14 @@ export default {
 
   theme: {
     extend: {},
+    container: {
+      center: true,
+      padding: {
+        default: "20px",
+        md: "40px",
+
+      },
+    }
   },
   plugins: [require("daisyui")],
 }
