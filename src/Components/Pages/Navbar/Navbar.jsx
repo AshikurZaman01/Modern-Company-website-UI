@@ -98,7 +98,7 @@ const Navbar = () => {
                             </li>
 
                             {/* Dark and Light Mode */}
-                            <li>
+                            <li className="block">
                                 <div className="flex gap-10 text-2xl ml-5 cursor-pointer">
                                     {theme === 'dark' ?
                                         <FaMoon onClick={toggleTheme} /> :
