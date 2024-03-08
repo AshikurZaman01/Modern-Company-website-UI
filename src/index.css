@@ -4,6 +4,6 @@
 
 @layer utilities {
     .bg-navbar {
-        @apply bg-gradient-to-l from-violet-900 via-violet-800 tovial-violet-900;
+        @apply bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900;
     }
 }
