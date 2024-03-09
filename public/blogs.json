@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "date": "March 1, 2024",
+            "author_name": "John Doe",
+            "image": "https://images.unsplash.com/photo-1682685797828-d3b2561deef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vel augue vehicula, nec tincidunt neque tincidunt. Nullam vel quam eu metus pellentesque auctor."
+        },
+        {
+            "id": 2,
+            "date": "March 9, 2024",
+            "author_name": "Alice Johnson",
+            "image": "https://plus.unsplash.com/premium_photo-1686244744785-528e406c3eda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJsb2d8ZW58MHx8MHx8fDA%3D",
+            "title": "Third Blog Post",
+            "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur vehicula ultricies ligula, in eleifend lorem fringilla vel."
+        },
+        {
+            "id": 3,
+            "date": "March 5, 2024",
+            "author_name": "Jane Smith",
+            "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsb2d8ZW58MHx8MHx8fDA%3D",
+            "title": "Second Blog Post",
+            "description": "Praesent quis eros vel nulla elementum eleifend. Nullam vitae magna vel augue tincidunt fermentum. Duis ac turpis a magna convallis tempor."
+        }
+    ]
+}

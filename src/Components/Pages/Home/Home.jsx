@@ -1,3 +1,4 @@
+import Blogs from "../Blogs/Blogs";
 import Details from "../Details/Details";
 import Hero from "../Navbar/Hero";
 import OverView from "../OverView/OverView";
@@ -12,6 +13,7 @@ const Home = () => {
             <Details></Details>
             <SimpleBanner></SimpleBanner>
             <VideoBanner></VideoBanner>
+            <Blogs></Blogs>
         </div>
     );
 };

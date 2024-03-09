@@ -1,7 +1,7 @@
 const VideoBanner = () => {
     return (
         <div className="bg-primary">
-            <div className="container grid grid-cols-1 items-center md:grid-cols-3 md:gap-8">
+            <div className="container grid grid-cols-1 items-center md:grid-cols-3 md:gap-8 p-10">
                 {/* Video Section */}
                 <div>
                     <iframe
