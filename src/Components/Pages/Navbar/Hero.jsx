@@ -27,7 +27,7 @@ const Hero = () => {
 
                         <div className='flex gap-4'>
                             <button className='btn btn-sm capitalize btn-secondary'>Get Started</button>
-                            <button className='btn btn-sm capitalize bg-transparent text-white hover:bg-purple-700'>Get Started</button>
+                            <button className='btn btn-sm capitalize bg-transparent text-white hover:bg-purple-700'>Login</button>
                         </div>
                     </div>
                     {/* text */}
