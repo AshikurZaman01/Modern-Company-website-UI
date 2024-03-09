@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import AOS from 'aos';
-import { useEffect } from 'react';
 
-const Details = () => {
+const SimpleBanner = () => {
 
     useEffect(() => {
         AOS.init();
@@ -15,10 +15,10 @@ const Details = () => {
 
                         {/* text */}
                         <div
-                            data-aos="fade-left"
+                            data-aos="fade-right"
                             data-aos-duration="1000"
                             data-aos-once="false"
-                            className="space-y-4 order-1 md:order-2">
+                            className="space-y-4 order-2 md:order-2">
                             <h1 className="text-2xl md:text-4xl "> We Build Apps That Get Trending On Appworld</h1>
                             <p className="text-sm text-slate-600 dark:text-slate-400">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
@@ -41,11 +41,11 @@ const Details = () => {
 
                         {/* image */}
                         <div
-                            data-aos="fade-right"
+                            data-aos="fade-left"
                             data-aos-duration="1000"
                             data-aos-once="false"
-                            className="order-2 md:order-1">
-                            <img className="mx-auto max-w-[400px] h-[300px] rounded" src="https://images.unsplash.com/photo-1601034913836-a1f43e143611?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFwcHN8ZW58MHx8MHx8fDA%3D" alt="" />
+                            className="order-1 md:order-1">
+                            <img className="mx-auto max-w-[400px] h-[300px] rounded" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRd7OzcgALSzd2speVjQ9HM0MlOlQzvbC2VYZX21zrVcHCuZ3HF" alt="" />
                         </div>
                         {/* image */}
 
@@ -57,4 +57,4 @@ const Details = () => {
     );
 };
 
-export default Details;
+export default SimpleBanner;
