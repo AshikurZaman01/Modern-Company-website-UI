@@ -17,7 +17,7 @@ const Details = () => {
                         <div
                             data-aos="fade-right"
                             data-aos-duration="1000"
-                            data-aos-once="true"
+                            data-aos-once="false"
                             className="space-y-4 order-2 md:order-1">
                             <h1 className="text-2xl md:text-4xl "> We Build Apps That Get Trending On Appworld</h1>
                             <p className="text-sm text-slate-600 dark:text-slate-400">
@@ -43,7 +43,7 @@ const Details = () => {
                         <div
                             data-aos="fade-left"
                             data-aos-duration="1000"
-                            data-aos-once="true"
+                            data-aos-once="false"
                             className="order-1 md:order-2">
                             <img className="mx-auto max-w-[400px] h-[300px] rounded" src="https://images.unsplash.com/photo-1601034913836-a1f43e143611?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFwcHN8ZW58MHx8MHx8fDA%3D" alt="" />
                         </div>

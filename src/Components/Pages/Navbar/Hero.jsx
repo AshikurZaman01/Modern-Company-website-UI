@@ -19,7 +19,7 @@ const Hero = () => {
                     <div
                         data-aos="fade-right"
                         data-aos-duration="1000"
-                        data-aos-once="true"
+                        data-aos-once="false"
 
                         className='flex flex-col items-center gap-4 md:items-start md:text-left md:justify-center space-y-4 order-2 md:order-1 mb-0'>
                         <h1 className='text-4xl'>We Build Apps That Get <span className='text-green-500'>Trending On</span> <span className='text-pink-700'>Appworld</span></h1>
@@ -36,7 +36,7 @@ const Hero = () => {
                     <div
                         data-aos="fade-left"
                         data-aos-duration="1000"
-                        data-aos-once="true"
+                        data-aos-once="false"
                         className='mx-auto max-w-xs p-4 order-1 md:order-2'>
                         <img src={heroImg} alt="" className="mx-auto" />
                     </div>
